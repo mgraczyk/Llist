@@ -4,7 +4,9 @@
 #include <malloc.h>
 #include <stdlib.h>
 
+#ifndef TDATA_t
 #define TDATA_t double
+#endif
 
 typedef struct LlistNode_t {
     TDATA_t data;
